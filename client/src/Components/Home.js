@@ -13,8 +13,6 @@ function Home(){
     },[]);
 
 
-
-
     return(
         <div>
         <h1>Kaia Bergmann-Dean</h1>
