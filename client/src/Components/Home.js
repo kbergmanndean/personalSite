@@ -1,4 +1,20 @@
+import {useEffect, useState} from "react"
+
 function Home(){
+    const [artworks,setArtworks]=useState([])
+
+    useEffect(()=>{
+        async function fetchArt(){
+            const res= await fetch (`http://localhost:3000/artworks`);
+            const artworkData=await res.json();
+            setArtworks(artworkData);
+        }
+        fetchArt();
+    },[]);
+
+
+
+
     return(
         <div>
         <h1>Kaia Bergmann-Dean</h1>
