@@ -4,7 +4,7 @@ class CreateArtworks < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :url 
       t.string :artist
-      t.integer :year
+      t.string :year
 
       t.timestamps
     end
