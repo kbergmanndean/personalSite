@@ -22,6 +22,7 @@ function Home(){
             <li><a>Resume</a></li>
             <li><a>Projects</a></li>
         </ul>
+        {artworks.map((artwork)=><img src={artwork.url}/>)}
         </div>
     )
 }
