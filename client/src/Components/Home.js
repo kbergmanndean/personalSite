@@ -5,7 +5,7 @@ function Home(){
 
     useEffect(()=>{
         async function fetchArt(){
-            const res= await fetch (`http://localhost:3000/artworks`);
+            const res= await fetch (`http://localhost:3000/artworks`, {mode:"no-cors"});
             const artworkData=await res.json();
             setArtworks(artworkData);
         }
