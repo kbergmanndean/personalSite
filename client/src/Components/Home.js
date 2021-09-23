@@ -2,16 +2,7 @@ import {useEffect, useState} from "react"
 import Slideshow from "./Slideshow"
 
 function Home(){
-    const [artworks,setArtworks]=useState([])
-
-    useEffect(()=>{
-        async function fetchArt(){
-            const res= await fetch (`http://localhost:3000/artworks`);
-            const artworkData=await res.json();
-            setArtworks(artworkData);
-        }
-        fetchArt();
-    },[]);
+    
 
 
     return(
@@ -23,7 +14,7 @@ function Home(){
             <li><a>Resume</a></li>
             <li><a>Projects</a></li>
         </ul>
-        <Slideshow artworks={artworks}/>
+        <Slideshow/>
         </div>
     )
 }
