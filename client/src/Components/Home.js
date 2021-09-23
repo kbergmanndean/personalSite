@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react"
+import Slideshow from "./Slideshow"
 
 function Home(){
     const [artworks,setArtworks]=useState([])
@@ -22,7 +23,7 @@ function Home(){
             <li><a>Resume</a></li>
             <li><a>Projects</a></li>
         </ul>
-        {artworks.map((artwork)=><img src={artwork.url}/>)}
+        <Slideshow artworks={artworks}/>
         </div>
     )
 }
