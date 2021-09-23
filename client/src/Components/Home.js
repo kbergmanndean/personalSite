@@ -1,4 +1,3 @@
-import {useEffect, useState} from "react"
 import Slideshow from "./Slideshow"
 
 function Home(){
@@ -11,8 +10,8 @@ function Home(){
         <ul>
             <li><a href="https://www.linkedin.com/in/kaiabergmann-dean/">LinkedIn</a></li>
             <li><a href="https://github.com/kbergmanndean">GitHub</a></li>
-            <li><a>Resume</a></li>
-            <li><a>Projects</a></li>
+            <li>Resume</li>
+            <li>Projects</li>
         </ul>
         <Slideshow/>
         </div>
