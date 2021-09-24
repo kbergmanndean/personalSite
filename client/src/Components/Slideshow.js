@@ -13,20 +13,16 @@ function Slideshow(){
             setWork(artworkData[0])
         }
         fetchArt();
-        
+        // let i
+        // for (i=0;i<artworks.length-1;i++){
+        //     setWork(artworks[i])
+        // }
     },[]);
-
-    
-    //src=artworks[i]
-    // for (i=0;i<artworks.length-1;i++){
-    //     setWork(artworks[i])
-    // }
-
 
     return(
         <div>
-            {/* <img src={work.url}/> */}
-            {artworks.map((artwork)=><img src={artwork.url}/>)}  
+            <img src={work.url}/>
+            {/* {artworks.map((artwork)=><img src={artwork.url} key={artwork.id}/>)}   */}
         </div>
     )
 }
