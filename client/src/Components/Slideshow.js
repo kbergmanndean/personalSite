@@ -10,14 +10,24 @@ function Slideshow(){
             const res= await fetch (`http://localhost:3000/artworks`);
             const artworkData=await res.json();
             setArtworks(artworkData);
-            setWork(artworkData[0])
+            setWork(artworkData[0]);
+            let i=0
+            i<artworkData.length-1?
+                i++:i=0;
+            setTimeout(()=>{setWork(artworkData[i])},2500);
+            console.log(i)
+            console.log(work)
+            console.log(artworks)
         }
         fetchArt();
-        // let i
-        // for (i=0;i<artworks.length-1;i++){
-        //     setWork(artworks[i])
-        // }
     },[]);
+
+    
+    
+
+
+
+
 
     return(
         <div>
