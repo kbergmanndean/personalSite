@@ -16,8 +16,11 @@ function Slideshow(){
         
     },[]);
 
-    //iterate through artworks by doing i for i=0;i<artworks.length-1;i++
+    
     //src=artworks[i]
+    // for (i=0;i<artworks.length-1;i++){
+    //     setWork(artworks[i])
+    // }
 
 
     return(
