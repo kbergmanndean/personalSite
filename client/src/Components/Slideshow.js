@@ -20,31 +20,31 @@ function Slideshow(){
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src={artworks[0].url}/>
+                        <img className="d-block w-100" src={artworks[0].url} alt="Wyeth painting"/>
                         <div>
                             <p>{artworks[0].name}, {artworks[0].artist}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={artworks[1].url}/>
+                        <img className="d-block w-100" src={artworks[1].url} alt= "Bruegel painting"/>
                         <div>
                             <p>{artworks[1].name}, {artworks[1].artist}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={artworks[2].url}/>
+                        <img className="d-block w-100" src={artworks[2].url} alt="Basquiat painting"/>
                         <div>
                             <p>{artworks[2].name}, {artworks[2].artist}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={artworks[3].url}/>
+                        <img className="d-block w-100" src={artworks[3].url} alt="Henry Darger work"/>
                         <div>
                             <p>{artworks[3].name}, {artworks[3].artist}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={artworks[4].url}/>
+                        <img className="d-block w-100" src={artworks[4].url} alt="Charles Burns work"/>
                         <div>
                             <p>{artworks[4].name}, {artworks[4].artist}</p>
                         </div>
