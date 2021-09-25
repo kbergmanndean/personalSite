@@ -7,7 +7,7 @@ function Slideshow(){
 
     useEffect(()=>{
         async function fetchArt(){
-            const res= await fetch (`http://localhost:3000/artworks`);
+            const res=await fetch (`http://localhost:3000/artworks`);
             const artworkData=await res.json();
             setArtworks(artworkData);
             // setWork(artworkData[0]);
@@ -24,6 +24,7 @@ function Slideshow(){
 
     return(
         <div>
+            {artworks.length>0?
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -36,7 +37,8 @@ function Slideshow(){
                         <img className="d-block w-100" src={artworks[2].url}/>
                     </div>
                 </div>
-            </div>
+            </div>:
+            <h1>Content Loading</h1>}
             {/* <img src={work.url}/> */}
             {/* {artworks.map((artwork)=><img src={artwork.url} key={artwork.id}/>)}   */}
         </div>
