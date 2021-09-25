@@ -21,32 +21,32 @@ function Slideshow(){
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={artworks[0].url}/>
-                        <div class="carousel-caption d-none d-md-block">
-                            <p>{artworks[0].name},{artworks[0].artist}</p>
+                        <div>
+                            <p>{artworks[0].name}, {artworks[0].artist}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={artworks[1].url}/>
-                        <div class="carousel-caption d-none d-md-block">
-                            <p>{artworks[1].name},{artworks[1].artist}</p>
+                        <div>
+                            <p>{artworks[1].name}, {artworks[1].artist}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={artworks[2].url}/>
-                        <div class="carousel-caption d-none d-md-block">
-                            <p>{artworks[2].name},{artworks[2].artist}</p>
+                        <div>
+                            <p>{artworks[2].name}, {artworks[2].artist}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={artworks[3].url}/>
-                        <div class="carousel-caption d-none d-md-block">
-                            <p>{artworks[3].name},{artworks[3].artist}</p>
+                        <div>
+                            <p>{artworks[3].name}, {artworks[3].artist}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={artworks[4].url}/>
-                        <div class="carousel-caption d-none d-md-block">
-                            <p>{artworks[4].name},{artworks[4].artist}</p>
+                        <div>
+                            <p>{artworks[4].name}, {artworks[4].artist}</p>
                         </div>
                     </div>
                 </div>
