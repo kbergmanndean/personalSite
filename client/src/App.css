@@ -1,11 +1,15 @@
 .app{
   background-color:pink;
   text-align:center;
+  align-items:center;
 }
 h1{
   font-family: "Courier New"
 }
 ul{
   list-style: none;
+}
+.carousel-item{
+  width:50%;
 }
 
