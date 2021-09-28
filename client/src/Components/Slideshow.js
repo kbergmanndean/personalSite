@@ -38,13 +38,13 @@ function Slideshow(){
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={artworks[3].url} alt="Henry Darger work"/>
+                        <img className="d-block w-100" src={artworks[3].url} alt="Henry Darger painting"/>
                         <div>
                             <p>{artworks[3].name}, {artworks[3].artist}</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={artworks[4].url} alt="Charles Burns work"/>
+                        <img className="d-block w-100" src={artworks[4].url} alt="Charles Burns drawing"/>
                         <div>
                             <p>{artworks[4].name}, {artworks[4].artist}</p>
                         </div>
