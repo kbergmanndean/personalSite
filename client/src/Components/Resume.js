@@ -6,7 +6,7 @@ function Resume(){
         <div>
             <h1>Resume</h1>
             <Document file={resume}>
-                <Page/>
+                <Page pageNumber={1}/>
             </Document>
         </div>
 
