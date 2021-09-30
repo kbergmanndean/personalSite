@@ -3,11 +3,13 @@ import resume from "./resume.pdf"
 
 function Resume(){
     return(
-        <div>
+        <div className="resume-page">
+            <div className="resume-item">
             <h1>Resume</h1>
             <Document file={resume}>
                 <Page pageNumber={1}/>
             </Document>
+            </div>
         </div>
 
     )
