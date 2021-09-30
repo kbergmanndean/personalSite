@@ -1,5 +1,6 @@
 import {Document, Page} from "react-pdf/dist/esm/entry.webpack";
 import resume from "./resume.pdf"
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 function Resume(){
     return(
