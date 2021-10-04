@@ -1,5 +1,5 @@
-import {Document, Page} from "react-pdf/dist/esm/entry.webpack";
-import resume from "./resume.pdf"
+import {Document, Page} from "react-pdf";
+import resume from "../resume.pdf"
 
 function Resume(){
     return(
