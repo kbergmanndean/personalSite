@@ -1,11 +1,8 @@
-import {Document} from "react-pdf";
-import resume from "../resume.pdf"
-
 function Resume(){
     return(
         <div>
             <h1>Resume</h1>
-            <Document file={resume} >Resume</Document>
+            <iframe src="../resume.pdf" width="50%" height="500pt" title="Resume">Resume</iframe>
         </div>
 
     )
