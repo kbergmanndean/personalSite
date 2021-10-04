@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "env-cmd -f .env.staging react-scripts start",
-    "build": "npm install --prefix client && npm run build --prefix client && env-cmd -f .env.staging react-scripts build && env-cmd -f .env.production react-scripts build",
+    "build": "npm install --prefix client && npm run build --prefix client",
     "clean": "rm -rf public",
     "deploy": "cp -a client/build/. public/",
     "heroku-postbuild": "npm run clean && npm run build && npm run deploy"
