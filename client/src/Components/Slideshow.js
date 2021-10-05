@@ -53,41 +53,41 @@ function Slideshow(){
         //     </div>
         //     :<h4>Content Loading</h4>}
         // </div>
+        <div>{artworks.length>0}?
         <Carousel>
             <Carousel.Item>
                  <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
-                    alt="First slide"
+                    src={artworks[0].url}
+                    alt="Andrew Wyeth"
                 />
                 <Carousel.Caption>
-                     <h3>First slide label</h3>
-                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                     <h3>{artworks[0].name}, {artworks[0].artist}</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
-                    alt="Second slide"
+                    src={artworks[1].url}
+                    alt="Pieter Brueghel"
                 />
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>{artworks[1].name}, {artworks[1].artist}</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
-                    alt="Third slide"
+                    src={artworks[2].url}
+                    alt="Basquiat"
                 />
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>{artworks[2].name}, {artworks[2].artist}</h3>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+        :<p>Content Loading</p>
+        </div>
     )
 }
 export default Slideshow
