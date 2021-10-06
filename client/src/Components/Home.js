@@ -5,7 +5,7 @@ function Home(){
 
 
     return(
-        <div>
+        <div id="home-page">
         <h1>Kaia Bergmann-Dean</h1>
         <ul>
             <li><a href="https://www.linkedin.com/in/kaiabergmann-dean/">LinkedIn</a></li>
