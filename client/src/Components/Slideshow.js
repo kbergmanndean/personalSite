@@ -22,9 +22,9 @@ function Slideshow(){
         <div>
             {artworks.length>0?
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img className="d-block w-100 img-fluid" src={artworks[0].url} alt="Wyeth painting"/>
+                <div className="carousel-inner" id="inner">
+                    <div className="carousel-item active" id="wyeth-item">
+                        <img className="d-block w-100 img-fluid" id="wyeth" src={artworks[0].url} alt="Wyeth painting"/>
                         <div>
                             <p>{artworks[0].name}, {artworks[0].artist}</p>
                         </div>
