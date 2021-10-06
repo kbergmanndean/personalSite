@@ -9,12 +9,15 @@ h1{
 ul{
   list-style: none;
 }
+.img-fluid{
+  width:50%;
+  margin:auto;
+}
 /* .carousel-item{
   width:50%;
   margin:auto;
-  margin-bottom:100pt;
 } */
-/* .carousel-slide{
+/* .carousel-inner{
   width:50%;
   margin:auto;
 } */

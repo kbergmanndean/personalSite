@@ -10,7 +10,7 @@ function Slideshow(){
             const artworkData=await res.json();
             setArtworks(artworkData);
             console.log(artworks)
-            
+    
         }
         fetchArt();
         console.log(artworks)
