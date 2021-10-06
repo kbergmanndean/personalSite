@@ -9,9 +9,10 @@ function Slideshow(){
             const res=await fetch (`http://localhost:3000/artworks`);
             const artworkData=await res.json();
             setArtworks(artworkData);
-            console.log(artworks)
         }
         fetchArt();
+        console.log(artworks)
+        console.log(artworks[0])
     },[]);
 
     return(
@@ -53,7 +54,8 @@ function Slideshow(){
         //     </div>
         //     :<h4>Content Loading</h4>}
         // </div>
-        <div>{artworks.length>0}?
+        <div>
+            {artworks.length>0?
         <Carousel>
             <Carousel.Item>
                  <img
@@ -86,7 +88,7 @@ function Slideshow(){
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-        :<p>Content Loading</p>
+        :<p>Content Loading</p>}
         </div>
     )
 }
