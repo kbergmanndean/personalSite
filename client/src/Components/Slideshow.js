@@ -1,5 +1,4 @@
 import {useState,useEffect} from "react"
-import {Carousel} from 'react-bootstrap';
 
 function Slideshow(){
     const [artworks,setArtworks]=useState([])
@@ -57,42 +56,6 @@ function Slideshow(){
             </div>
             :<h4>Content Loading</h4>}
         </div>
-        // <div>
-        //     {artworks?
-        // <Carousel>
-        //     <Carousel.Item>
-        //          <img
-        //             className="d-block w-100"
-        //             src={artworks[0].url}
-        //             alt="Andrew Wyeth"
-        //         />
-        //         <Carousel.Caption>
-        //              <h3>{artworks[0].name}, {artworks[0].artist}</h3>
-        //         </Carousel.Caption>
-        //     </Carousel.Item>
-        //     <Carousel.Item>
-        //         <img
-        //             className="d-block w-100"
-        //             src={artworks[1].url}
-        //             alt="Pieter Brueghel"
-        //         />
-        //         <Carousel.Caption>
-        //             <h3>{artworks[1].name}, {artworks[1].artist}</h3>
-        //         </Carousel.Caption>
-        //     </Carousel.Item>
-        //     <Carousel.Item>
-        //         <img
-        //             className="d-block w-100"
-        //             src={artworks[2].url}
-        //             alt="Basquiat"
-        //         />
-        //         <Carousel.Caption>
-        //             <h3>{artworks[2].name}, {artworks[2].artist}</h3>
-        //         </Carousel.Caption>
-        //     </Carousel.Item>
-        // </Carousel>
-        // :<p>Content Loading</p>}
-        // </div>
     )
 }
 export default Slideshow

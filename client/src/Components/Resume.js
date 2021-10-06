@@ -1,12 +1,13 @@
+import pdf from "../resume.pdf"
+
 function Resume(){
     return(
-        <div>
+        <div id="resume-frame">
             <h1>Resume</h1>
-            {/* <iframe src="../resume.pdf" width="50%" height="500pt" title="Resume">Resume</iframe> */}
             <iframe
+                id="resume"
                 title="file"
-                style={{ width: '100%', height: '100%' }}
-                src="../resume.pdf"
+                src={pdf}
             />
         </div>
 
