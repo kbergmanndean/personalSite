@@ -7,9 +7,6 @@
 h1{
   font-family:"Homemade Apple",cursive;
 }
-.links{
-  list-style: none;
-}
 a{
   color:purple;
 }
@@ -36,6 +33,6 @@ a:hover{
 }
 #cherub1{
   height:100pt;
-  float:left;
+  /* float:left; */
   /* margin-left:100pt; */
 }
