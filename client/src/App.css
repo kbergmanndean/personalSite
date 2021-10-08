@@ -34,3 +34,8 @@ a:hover{
 #home-page{
   height:100vh;
 }
+#cherub1{
+  height:100pt;
+  float:left;
+  /* margin-left:100pt; */
+}

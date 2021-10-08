@@ -1,4 +1,5 @@
 import Slideshow from "./Slideshow"
+import cherub from "../pngs/cherub1.png"
 
 function Home(){
     
@@ -14,6 +15,7 @@ function Home(){
             <li><a href="/resume">Resume</a></li>
             <li>Projects</li>
         </ul>
+        <img className="cherub" id="cherub1" alt="cherub" src={cherub}/>
         <Slideshow/>
         </div>
     )
