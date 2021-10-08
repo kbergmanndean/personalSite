@@ -1,6 +1,7 @@
 import Slideshow from "./Slideshow"
-import cherub from "../pngs/cherub1.png"
+import cherub1 from "../pngs/cherub1.png"
 import raccoon from "../pngs/raccoon.png"
+import cherub2 from "../pngs/cherub2.png"
 
 function Home(){
     
@@ -13,9 +14,9 @@ function Home(){
     
         
         <a href="/resume">Resume</a>
-        <span>Projects</span>
+        
         <div id="linkedin-div">
-            <img id="cherub1" alt="cherub" src={cherub}/>
+            <img id="cherub1" alt="cherub" src={cherub1}/>
             <br/>
             <a href="https://www.linkedin.com/in/kaiabergmann-dean/">LinkedIn</a>
         </div>
@@ -23,6 +24,11 @@ function Home(){
             <img id="raccoon" alt="raccoon" src={raccoon}/>
             <br/>
             <a href="https://github.com/kbergmanndean">GitHub</a>
+        </div>
+        <div id="projects-div">
+            <img id="cherub2" alt="cherub" src={cherub2}/>
+            <br/>
+            <span>Projects</span>
         </div>
         <Slideshow/>
         </div>
