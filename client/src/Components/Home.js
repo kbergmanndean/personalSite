@@ -12,6 +12,7 @@ function Home(){
         <div id="home-page">
             <br/>
         <h1>Kaia Bergmann-Dean</h1>
+            <br/>
         <div id="linkedin-div">
             <img id="cherub1" alt="cherub" src={cherub1}/>
             <br/>
