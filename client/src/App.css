@@ -27,9 +27,15 @@ a{
 }
 #cherub1{
   height:150pt;
+  position:relative;
+  z-index:1;
 }
 #linkedin{
   width:100pt;
+  position:relative;
+  z-index:2;
+  top:-50px;
+  
 }
 #linkedin-div{
   float:left;
