@@ -28,13 +28,14 @@ a{
 #cherub1{
   height:150pt;
   position:relative;
-  z-index:1;
+  z-index:2;
 }
 #linkedin-link{
   width:100pt;
   position:relative;
-  z-index:2;
-  top:-50px;
+  z-index:1;
+  top:-35px;
+  left:10px;
 }
 #linkedin-div{
   float:left;
@@ -58,17 +59,16 @@ a{
 #cherub2{
   height:150pt;
   z-index:2;
-  
 }
 #projects-link{
   width:140pt;
   position:relative;
-  top:-30px;
+  top:-34px;
   left:10px;
   z-index:1;
 }
 #projects-div{
-  padding-top:245pt;
+  padding-top:230pt;
   padding-right:40pt;
   float:right;
   z-index:1;
