@@ -19,7 +19,7 @@ function Home(){
         <div id="linkedin-div">
             <img id="cherub1" alt="cherub" src={cherub1}/>
             <br/>
-            <img id="linkedin" alt="Linked In" src={linkedin}/>
+            <img id="linkedin-link" alt="Linked In" src={linkedin}/>
             {/* <a href="https://www.linkedin.com/in/kaiabergmann-dean/">LinkedIn</a> */}
         </div>
         <div id="projects-div">
@@ -30,7 +30,7 @@ function Home(){
         <div id="github-div">
             <img id="raccoon" alt="raccoon" src={raccoon}/>
             <br/>
-            <img id="github" alt="GitHub" src={github}/>
+            <img id="github-link" alt="GitHub" src={github}/>
             {/* <a href="https://github.com/kbergmanndean">GitHub</a> */}
         </div>
         <div id="resume-div">

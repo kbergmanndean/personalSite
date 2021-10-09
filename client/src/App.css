@@ -30,7 +30,7 @@ a{
   position:relative;
   z-index:1;
 }
-#linkedin{
+#linkedin-link{
   width:100pt;
   position:relative;
   z-index:2;
@@ -46,7 +46,7 @@ a{
   left:-30px;
   top:-30px;
 }
-#github{
+#github-link{
   width:100pt;
   position:relative;
   top:-40px;
@@ -60,10 +60,10 @@ a{
 }
 #projects-div{
   padding-top:245pt;
-  padding-right:20pt;
+  padding-right:40pt;
   float:right;
   z-index:1;
-  margin-left:-70pt;
+  margin-left:-90pt;
 }
 #possum{
   height:90pt; 
@@ -78,7 +78,6 @@ a{
   left:55px;
 }
 #resume-div{
-
   float:right;
   z-index:2;
 }
