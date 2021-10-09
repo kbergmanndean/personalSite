@@ -69,13 +69,15 @@ a{
   height:90pt; 
   position:relative;
   left:5px;
+  z-index:2;
 }
 #resume-link{
   width:100pt;
   height:53pt;
   position:relative;
-  top:-40px;
-  left:55px;
+  top:-34px;
+  left:30px;
+  z-index:1;
 }
 #resume-div{
   float:right;
