@@ -4,6 +4,7 @@ import raccoon from "../pngs/raccoon.png"
 import cherub2 from "../pngs/cherub2.png"
 import possum from "../pngs/possum.png"
 import linkedin from "../pngs/linkedin.png"
+import github from "../pngs/github.png"
 
 function Home(){
     
@@ -18,7 +19,6 @@ function Home(){
             <img id="cherub1" alt="cherub" src={cherub1}/>
             <br/>
             <img id="linkedin" alt="Linked In" src={linkedin}/>
-            <br/>
             {/* <a href="https://www.linkedin.com/in/kaiabergmann-dean/">LinkedIn</a> */}
         </div>
         <div id="resume-div">
@@ -29,7 +29,8 @@ function Home(){
         <div id="github-div">
             <img id="raccoon" alt="raccoon" src={raccoon}/>
             <br/>
-            <a href="https://github.com/kbergmanndean">GitHub</a>
+            <img id="github" alt="GitHub" src={github}/>
+            {/* <a href="https://github.com/kbergmanndean">GitHub</a> */}
         </div>
         <div id="projects-div">
             <img id="cherub2" alt="cherub" src={cherub2}/>

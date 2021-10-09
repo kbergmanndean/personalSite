@@ -45,7 +45,12 @@ a{
   height:110pt;
   position:relative;
   left:-30px;
-  top:-20px;
+  top:-30px;
+}
+#github{
+  width:100pt;
+  position:relative;
+  top:-40px;
 }
 #github-div{
   float:left;
