@@ -32,15 +32,14 @@ a:hover{
   height:100vh;
 }
 #cherub1{
-  height:100pt;
-  /* float:left; */
-  /* margin-left:100pt; */
+  height:150pt;
 }
 #raccoon{
   height:100pt;
 }
 #github-div{
   float:left;
+  margin-top:300pt;
 }
 #cherub2{
   height:100pt;
@@ -53,6 +52,7 @@ a:hover{
 }
 #linkedin-div{
   float:left;
+  margin-left:20pt;
 }
 #resume-div{
   float:right;
