@@ -10,12 +10,6 @@ h1{
 a{
   color:purple;
 }
-a:hover{
-  color:yellow;
-}
-/* a:visited{
-  color:whitesmoke;
-} */
 #inner{
   width:50%;
   margin:auto
@@ -34,6 +28,13 @@ a:hover{
 #cherub1{
   height:150pt;
 }
+#linkedin{
+  width:100pt;
+}
+#linkedin-div{
+  float:left;
+  margin-left:20pt;
+}
 #raccoon{
   height:100pt;
 }
@@ -49,10 +50,6 @@ a:hover{
 }
 #possum{
   height:90pt; 
-}
-#linkedin-div{
-  float:left;
-  margin-left:20pt;
 }
 #resume-div{
   float:right;
