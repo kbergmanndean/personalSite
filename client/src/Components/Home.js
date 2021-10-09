@@ -1,3 +1,4 @@
+import useHistory from "react-router"
 import Slideshow from "./Slideshow"
 import cherub1 from "../pngs/cherub1.png"
 import raccoon from "../pngs/raccoon.png"
@@ -18,21 +19,25 @@ function Home(){
         <h1>Kaia Bergmann-Dean</h1>
             <br/>
         <div id="linkedin-div">
-            <img id="cherub1" alt="cherub" src={cherub1}/>
-            <br/>
-            <img id="linkedin-link" alt="Linked In" src={linkedin}/>
-            {/* <a href="https://www.linkedin.com/in/kaiabergmann-dean/">LinkedIn</a> */}
+            <a href="https://www.linkedin.com/in/kaiabergmann-dean/">
+                <img id="cherub1" alt="cherub" src={cherub1}/>
+                <br/>
+                <img id="linkedin-link" alt="Linked In" src={linkedin}/>
+            </a>
         </div>
         <div id="projects-div">
-            <img id="cherub2" alt="cherub" src={cherub2}/>
-            <br/>
-            <img id="projects-link" alt="Linked" src={projects}/>
+            
+                <img id="cherub2" alt="cherub" src={cherub2}/>
+                <br/>
+                <img id="projects-link" alt="Linked" src={projects}/>
+            
         </div>
         <div id="github-div">
-            <img id="raccoon" alt="raccoon" src={raccoon}/>
-            <br/>
-            <img id="github-link" alt="GitHub" src={github}/>
-            {/* <a href="https://github.com/kbergmanndean">GitHub</a> */}
+            <a href="https://github.com/kbergmanndean">
+                <img id="raccoon" alt="raccoon" src={raccoon}/>
+                <br/>
+                <img id="github-link" alt="GitHub" src={github}/>
+            </a>
         </div>
         <div id="resume-div">
             <img id="possum" alt="possum" src={possum}/>
