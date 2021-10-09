@@ -56,19 +56,22 @@ a{
   margin-top:300pt;
 }
 #cherub2{
-  height:100pt;
+  height:150pt;
 }
 #projects-div{
-  padding-top:300pt;
+  padding-top:245pt;
   padding-right:20pt;
   float:right;
+  z-index:1;
+  margin-left:-70pt;
 }
 #possum{
   height:90pt; 
   position:relative;
-  left:20px;
+  left:5px;
 }
 #resume-div{
   float:right;
+  z-index:2;
 }
 
