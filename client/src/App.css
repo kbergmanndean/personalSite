@@ -42,7 +42,10 @@ a{
   margin-left:20pt;
 }
 #raccoon{
-  height:100pt;
+  height:110pt;
+  position:relative;
+  left:-30px;
+  top:-20px;
 }
 #github-div{
   float:left;
