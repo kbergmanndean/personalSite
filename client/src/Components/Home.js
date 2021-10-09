@@ -21,10 +21,10 @@ function Home(){
             <img id="linkedin" alt="Linked In" src={linkedin}/>
             {/* <a href="https://www.linkedin.com/in/kaiabergmann-dean/">LinkedIn</a> */}
         </div>
-        <div id="resume-div">
-            <img id="possum" alt="possum" src={possum}/>
+        <div id="projects-div">
+            <img id="cherub2" alt="cherub" src={cherub2}/>
             <br/>
-            <a href="/resume">Resume</a>
+            <span>Projects</span>
         </div>
         <div id="github-div">
             <img id="raccoon" alt="raccoon" src={raccoon}/>
@@ -32,10 +32,10 @@ function Home(){
             <img id="github" alt="GitHub" src={github}/>
             {/* <a href="https://github.com/kbergmanndean">GitHub</a> */}
         </div>
-        <div id="projects-div">
-            <img id="cherub2" alt="cherub" src={cherub2}/>
+        <div id="resume-div">
+            <img id="possum" alt="possum" src={possum}/>
             <br/>
-            <span>Projects</span>
+            <a href="/resume">Resume</a>
         </div>
         <Slideshow/>
         </div>

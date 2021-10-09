@@ -35,7 +35,6 @@ a{
   position:relative;
   z-index:2;
   top:-50px;
-  
 }
 #linkedin-div{
   float:left;
@@ -60,10 +59,14 @@ a{
   height:100pt;
 }
 #projects-div{
+  padding-top:300pt;
+  padding-right:20pt;
   float:right;
 }
 #possum{
   height:90pt; 
+  position:relative;
+  left:20px;
 }
 #resume-div{
   float:right;
