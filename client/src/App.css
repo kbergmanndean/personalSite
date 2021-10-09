@@ -70,7 +70,15 @@ a{
   position:relative;
   left:5px;
 }
+#resume-link{
+  width:100pt;
+  height:53pt;
+  position:relative;
+  top:-40px;
+  left:55px;
+}
 #resume-div{
+
   float:right;
   z-index:2;
 }

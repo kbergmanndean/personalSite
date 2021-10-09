@@ -5,6 +5,7 @@ import cherub2 from "../pngs/cherub2.png"
 import possum from "../pngs/possum.png"
 import linkedin from "../pngs/linkedin.png"
 import github from "../pngs/github.png"
+import resume from "../pngs/resume2.png"
 
 function Home(){
     
@@ -35,7 +36,8 @@ function Home(){
         <div id="resume-div">
             <img id="possum" alt="possum" src={possum}/>
             <br/>
-            <a href="/resume">Resume</a>
+            <img id="resume-link" alt="Resume link" src={resume}/>
+            {/* <a href="/resume">Resume</a> */}
         </div>
         <Slideshow/>
         </div>
