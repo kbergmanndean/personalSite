@@ -6,6 +6,7 @@ import possum from "../pngs/possum.png"
 import linkedin from "../pngs/linkedin.png"
 import github from "../pngs/github.png"
 import resume from "../pngs/resume2.png"
+import projects from "../pngs/projects.png"
 
 function Home(){
     
@@ -25,7 +26,7 @@ function Home(){
         <div id="projects-div">
             <img id="cherub2" alt="cherub" src={cherub2}/>
             <br/>
-            <span>Projects</span>
+            <img id="projects-link" alt="Linked" src={projects}/>
         </div>
         <div id="github-div">
             <img id="raccoon" alt="raccoon" src={raccoon}/>

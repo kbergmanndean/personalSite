@@ -57,6 +57,14 @@ a{
 }
 #cherub2{
   height:150pt;
+  z-index:2;
+}
+#projects-link{
+  width:140pt;
+  position:relative;
+  top:-30px;
+  left:10px;
+  z-index:1;
 }
 #projects-div{
   padding-top:245pt;
