@@ -40,23 +40,23 @@ a{
 #linkedin-div{
   float:left;
   margin-left:20pt;
-  background-color:royalblue;
+  /* background-color:royalblue; */
 }
 #raccoon{
   height:110pt;
   position:relative;
   left:-30px;
-  top:-30px;
+  /* top:10pt; */
 }
 #github-link{
   width:100pt;
   position:relative;
-  top:-40px;
+  top:-10px;
 }
 #github-div{
   float:left;
-  margin-top:300pt;
-  background-color:aquamarine;
+  margin-top:280pt;
+  /* background-color:aquamarine; */
 }
 #cherub2{
   height:150pt;
