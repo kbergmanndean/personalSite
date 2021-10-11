@@ -40,7 +40,10 @@ a{
 #linkedin-div{
   float:left;
   margin-left:20pt;
-  /* background-color:royalblue; */
+  background-color:royalblue;
+}
+#linkedin-div a:hover{
+  background-color:yellow;
 }
 #raccoon{
   height:110pt;
@@ -56,7 +59,10 @@ a{
 #github-div{
   float:left;
   margin-top:280pt;
-  /* background-color:aquamarine; */
+  background-color:aquamarine;
+}
+#github-div a:hover{
+  background-color:yellow;
 }
 #cherub2{
   height:150pt;
