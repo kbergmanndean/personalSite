@@ -5,6 +5,8 @@ function Resume(){
         <div>
             <br/>
             <a href="/">Home</a>
+            <br/>
+            <br/>
             <div id="resume-page">
             <h1>Resume</h1>
             <iframe

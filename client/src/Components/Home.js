@@ -40,10 +40,11 @@ function Home(){
             </a>
         </div>
         <div id="resume-div">
-            <img id="possum" alt="possum" src={possum}/>
-            <br/>
-            <img id="resume-link" alt="Resume link" src={resume}/>
-            {/* <a href="/resume">Resume</a> */}
+            <a href="/resume">
+                <img id="possum" alt="possum" src={possum}/>
+                <br/>
+                <img id="resume-link" alt="Resume link" src={resume}/>
+            </a>
         </div>
         <Slideshow/>
         </div>
