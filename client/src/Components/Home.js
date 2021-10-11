@@ -7,7 +7,7 @@ import possum from "../pngs/possum.png"
 import linkedin from "../pngs/linkedin.png"
 import github from "../pngs/github.png"
 import resume from "../pngs/resume2.png"
-import projects from "../pngs/projects.png"
+import projects from "../pngs/projects2.png"
 
 function Home(){
     
