@@ -26,11 +26,11 @@ function Home(){
             </a>
         </div>
         <div id="projects-div">
-            
+            <a href="/projects">
                 <img id="cherub2" alt="cherub" src={cherub2}/>
                 <br/>
                 <img id="projects-link" alt="Linked" src={projects}/>
-            
+            </a>
         </div>
         <div id="github-div">
             <a href="https://github.com/kbergmanndean">
