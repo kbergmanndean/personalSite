@@ -12,3 +12,6 @@ Artwork.create(name:"The Hunters in the Snow", artist:"Pieter Bruegel the Elder"
 Artwork.create(name:"Monticello", artist:"Jean-Michel Basquiat", url:"https://uploads2.wikiart.org/images/jean-michel-basquiat/monticello.jpg!Large.jpg", year:"1983")
 Artwork.create(name:"Jenny and Her Sisters are Nearly Run Down by Train...", artist:"Henry Darger", url:"https://d32dm0rphc51dk.cloudfront.net/ue-jUeKBY3GQvrK-t_njTA/large.jpg", year:"no date")
 Artwork.create(name:"Summer Vacation", artist:"Charles Burns", url:"https://i.pinimg.com/736x/a0/95/f9/a095f99e9df30d28a1b065a90b9f3acf.jpg", year:"1995")
+
+Project.create(name:"MedReady", url:"https://www.youtube.com/embed/yDaJDPpVqiw",partner:"")
+Project.create(name:"Museum", url:"https://www.youtube.com/embed/waPYxd3zV-E", partner:"")
