@@ -20,9 +20,11 @@ function Projects(){
             <br/>
             <h1>Projects</h1>
             <br/>
-            {/* <ul>
-            {projects.length>0?projects.map((project)=>{<li><iframe src={projects[0].url}/></li>}):<h3>Content Loading</h3>}
-            </ul> */}
+            
+            {/* {projects.length>0?
+            projects.map((project)=>{
+                <div><h1>Hello</h1><iframe src={projects[0].url}/></div>}):<h3>Content Loading</h3>}
+           */}
             {projects.length>0?
             <div>
                 <div id="medready-div">
@@ -31,6 +33,7 @@ function Projects(){
                 </div>
                 <div id="museum-div">
                     <h2>{projects[1].name}</h2>
+                    <iframe className="project" src={projects[1].url}/>
                 </div>
             </div>
             :<h3>Content Loading</h3>}       
