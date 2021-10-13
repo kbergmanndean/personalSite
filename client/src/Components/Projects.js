@@ -7,13 +7,12 @@ function Projects(){
         async function fetchProjects(){
             const res=await fetch(`http://localhost:3000/projects`);
             const projectData=await res.json();
-            
+            setProjects(projectData);
+            console.log(projects)
+            console.log(projectData)
         }
+        fetchProjects();
     },[])
-
-
-    //function to fetch projects,
-    //put projects in state
     //display projects in iframes below
 
 
