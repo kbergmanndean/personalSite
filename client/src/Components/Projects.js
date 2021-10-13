@@ -1,3 +1,4 @@
+import home from "../pngs/home.png"
 import {useState, useEffect} from "react"
 
 function Projects(){
@@ -18,7 +19,9 @@ function Projects(){
     return(
         <div>
             <br/>
-            <a href="/">Home</a>
+            <a href="/">
+                <img className="home-link" src={home}/>
+            </a>
             <br/>
             <br/>
             <h1>Projects</h1>
