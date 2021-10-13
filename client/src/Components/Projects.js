@@ -18,6 +18,9 @@ function Projects(){
     return(
         <div>
             <br/>
+            <a href="/">Home</a>
+            <br/>
+            <br/>
             <h1>Projects</h1>
             <br/>
             
@@ -31,6 +34,7 @@ function Projects(){
                     <h2>{projects[0].name}</h2>
                     <iframe className="project" src={projects[0].url}/>
                 </div>
+                <br/>
                 <div id="museum-div">
                     <h2>{projects[1].name}</h2>
                     <iframe className="project" src={projects[1].url}/>
