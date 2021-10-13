@@ -102,4 +102,10 @@ a{
   width:768px;
   height:432px;
 }
+.home-link{
+  width:75pt;
+  float:left;
+  margin-left:100pt;
+  /* margin-top:20pt; */
+}
 

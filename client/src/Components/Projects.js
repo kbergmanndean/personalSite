@@ -24,13 +24,9 @@ function Projects(){
             </a>
             <br/>
             <br/>
-            <h1>Projects</h1>
             <br/>
-            
-            {/* {projects.length>0?
-            projects.map((project)=>{
-                <div><h1>Hello</h1><iframe src={projects[0].url}/></div>}):<h3>Content Loading</h3>}
-           */}
+            <h1 id="projects-heading">Projects</h1>
+            <br/>
             {projects.length>0?
             <div>
                 <div id="medready-div">
