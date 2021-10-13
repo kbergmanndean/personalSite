@@ -1,8 +1,17 @@
-
+import {useState, useEffect} from "react"
 
 function Projects(){
+    const [projects, setProjects]=useState([])
 
-    //create state
+    useEffect(()=>{
+        async function fetchProjects(){
+            const res=await fetch(`http://localhost:3000/projects`);
+            const projectData=await res.json();
+            
+        }
+    },[])
+
+
     //function to fetch projects,
     //put projects in state
     //display projects in iframes below
