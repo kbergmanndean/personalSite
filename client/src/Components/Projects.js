@@ -14,7 +14,7 @@ function Projects(){
         }
         fetchProjects();
     },[]);
-    //display projects in iframes below
+    
 
     return(
         <div>

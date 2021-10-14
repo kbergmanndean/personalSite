@@ -27,7 +27,7 @@ function Home(){
             </a>
         </div>
         <div id="projects-div">
-            <a href="/projects">
+            <a href="/my-projects">
                 <img id="cherub2" alt="cherub" src={cherub2}/>
                 <br/>
                 <img id="projects-link" alt="Linked" src={projects}/>
