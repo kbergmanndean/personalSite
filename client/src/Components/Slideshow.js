@@ -5,7 +5,7 @@ function Slideshow(){
 
     useEffect(()=>{
         async function fetchArt(){
-            const res=await fetch (`http://localhost:3000/artworks`);
+            const res=await fetch (`https://kb-d.herokuapp.com/artworks`);
             const artworkData=await res.json();
             setArtworks(artworkData);
             console.log(artworks)
