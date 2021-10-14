@@ -1,10 +1,13 @@
 import pdf from "../resume.pdf"
+import home from "../pngs/home.png"
 
 function Resume(){
     return(
         <div>
             <br/>
-            <a href="/">Home</a>
+            <a href="/">
+                <img src={home}/>
+            </a>
             <br/>
             <br/>
             <div id="resume-page">
