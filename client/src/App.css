@@ -5,14 +5,14 @@
   font-family:Courier;
 }
 h1{
-  font-family:"Homemade Apple",cursive;
-}
-a{
-  color:purple;
+  font-family:"Homemade Apple", cursive;
 }
 #inner{
   width:50%;
   margin:auto
+}
+.long-slide{
+  height:100vh;
 }
 #resume{
   width:100%;
