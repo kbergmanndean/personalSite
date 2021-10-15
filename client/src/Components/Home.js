@@ -8,7 +8,7 @@ import linkedin from "../pngs/linkedin.png"
 import github from "../pngs/github.png"
 import resume from "../pngs/resume2.png"
 import projects from "../pngs/projects2.png"
-
+import contact from "../pngs/contact.png"
 
 function Home(){
     
@@ -48,6 +48,9 @@ function Home(){
             </a>
         </div>
         <Slideshow/>
+        <div>
+            <h2>Contact</h2>
+        </div>
         </div>
     )
 }
