@@ -94,6 +94,10 @@ h1{
   width:768px;
   height:432px;
 }
+#contact-link{
+  width:120pt;
+  margin-right:150pt;
+}
 .home-link{
   width:75pt;
   float:left;
