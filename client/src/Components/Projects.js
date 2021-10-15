@@ -25,7 +25,7 @@ function Projects(){
             <br/>
             <br/>
             <br/>
-            <h1 id="projects-heading">Projects</h1>
+            <h1>Projects</h1>
             <br/>
             {projects.length>0?
             <div>
