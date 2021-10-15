@@ -49,7 +49,7 @@ function Home(){
         </div>
         <Slideshow/>
         <div>
-            <a>
+            <a href="/contact">
                 <img id="contact-link" alt="Contact Link" src={contact}/>
             </a>
         </div>
