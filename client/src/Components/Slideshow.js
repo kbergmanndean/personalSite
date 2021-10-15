@@ -46,12 +46,12 @@ function Slideshow(){
                             <p>{artworks[3].name}, {artworks[3].artist}</p>
                         </div>
                     </div>
-                    <div className="carousel-item long-slide">
+                    {/* <div className="carousel-item long-slide">
                         <img className="d-block w-100 img-fluid" src={artworks[4].url} alt="Charles Burns drawing"/>
                         <div>
                             <p>{artworks[4].name}, {artworks[4].artist}</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 {/* <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
