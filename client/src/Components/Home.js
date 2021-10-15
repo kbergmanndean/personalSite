@@ -8,7 +8,7 @@ import linkedin from "../pngs/linkedin.png"
 import github from "../pngs/github.png"
 import resume from "../pngs/resume2.png"
 import projects from "../pngs/projects2.png"
-import contact from "../pngs/contact.png"
+import contact from "../pngs/contactme2.png"
 // import name from "../pngs/name.png"
 
 function Home(){
