@@ -11,6 +11,9 @@ function Contact(){
             <br/>
             <div id="contact-page">
                 <h1>Contact Me</h1>
+                <br/>
+                <p>Email: kbergmanndean@gmail.com</p>
+                <a href="mailto: kbergmanndean@gmail.com">Send Email</a>
             </div>
 
         </div>

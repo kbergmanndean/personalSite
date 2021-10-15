@@ -9,6 +9,7 @@ import github from "../pngs/github.png"
 import resume from "../pngs/resume2.png"
 import projects from "../pngs/projects2.png"
 import contact from "../pngs/contact.png"
+// import name from "../pngs/name.png"
 
 function Home(){
     
@@ -18,6 +19,7 @@ function Home(){
         <div id="home-page">
             <br/>
         <h1>Kaia Bergmann-Dean</h1>
+        {/* <img src={name} id="name"/> */}
             <br/>
         <div id="linkedin-div">
             <a href="https://www.linkedin.com/in/kaiabergmann-dean/">
