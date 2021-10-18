@@ -18,44 +18,44 @@ function Home(){
     return(
         <div id="home-page">
             <br/>
-        <h1>Kaia Bergmann-Dean</h1>
-        {/* <img src={name} id="name"/> */}
-            <br/>
-        <div id="linkedin-div">
-            <a href="https://www.linkedin.com/in/kaiabergmann-dean/">
-                <img id="cherub1" alt="cherub" src={cherub1}/>
-                <br/>
-                <img id="linkedin-link" alt="Linked In" src={linkedin}/>
-            </a>
-        </div>
-        <div id="projects-div">
-            <a href="/my-projects">
-                <img id="cherub2" alt="cherub" src={cherub2}/>
-                <br/>
-                <img id="projects-link" alt="Linked" src={projects}/>
-            </a>
-        </div>
-        <div id="github-div">
-            <a href="https://github.com/kbergmanndean">
-                <img id="raccoon" alt="raccoon" src={raccoon}/>
-                <br/>
-                <img id="github-link" alt="GitHub" src={github}/>
-            </a>
-        </div>
-        <div id="resume-div">
-            <a href="/resume">
-                <img id="possum" alt="possum" src={possum}/>
-                <br/>
-                <img id="resume-link" alt="Resume link" src={resume}/>
-            </a>
-        </div>
-        <Slideshow/>
-        <div>
+            <h1 id="name">Kaia Bergmann-Dean</h1>
             <a href="/contact">
                 <img id="contact-link" alt="Contact Link" src={contact}/>
                 <img id="bat" alt="bat" src={bat}/>
             </a>
-        </div>
+            {/* <img src={name} id="name"/> */}
+            <div id="linkedin-div">
+                <a href="https://www.linkedin.com/in/kaiabergmann-dean/">
+                    <img id="cherub1" alt="cherub" src={cherub1}/>
+                    <br/>
+                    <img id="linkedin-link" alt="Linked In" src={linkedin}/>
+                </a>
+            </div>
+            <div id="projects-div">
+                <a href="/my-projects">
+                    <img id="cherub2" alt="cherub" src={cherub2}/>
+                    <br/>
+                    <img id="projects-link" alt="Linked" src={projects}/>
+                </a>
+            </div>
+            <div id="github-div">
+                <a href="https://github.com/kbergmanndean">
+                    <img id="raccoon" alt="raccoon" src={raccoon}/>
+                    <br/>
+                    <img id="github-link" alt="GitHub" src={github}/>
+                </a>
+            </div>
+            <div id="resume-div">
+                <a href="/resume">
+                    <img id="possum" alt="possum" src={possum}/>
+                    <br/>
+                    <img id="resume-link" alt="Resume link" src={resume}/>
+                </a>
+            </div>
+            <Slideshow/>
+            <div>
+           
+            </div>
         </div>
     )
 }
