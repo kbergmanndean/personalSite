@@ -97,13 +97,22 @@ h1{
   width:768px;
   height:432px;
 }
-#contact-link{
+/* #contact-link{
   width:150pt;
-  /* margin-right:150pt; */
+  margin-right:150pt;
   margin-top:20pt;
   position:relative;
   left:20px;
   top:40px;
+  z-index:2;
+} */
+#contact-link{
+  width:150pt;
+  /* margin-right:150pt; */
+  /* margin-top:20pt; */
+  position:relative;
+  left:330px;
+  top:-20px;
   z-index:2;
 }
 .home-link{
@@ -114,11 +123,18 @@ h1{
 #contact-page{
   height:100vh;
 }
-#bat{
+/* #bat{
   width:150pt;
   position:relative;
   right:95px;
   bottom:35px;
+  z-index:1;
+} */
+#bat{
+  width:150pt;
+  position:relative;
+  right:-220px;
+  bottom:100px;
   z-index:1;
 }
 
