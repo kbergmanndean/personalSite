@@ -9,7 +9,7 @@ import github from "../pngs/github.png"
 import resume from "../pngs/resume2.png"
 import projects from "../pngs/projects2.png"
 import contact from "../pngs/contactme2.png"
-// import name from "../pngs/name.png"
+import bat from "../pngs/bat1.png"
 
 function Home(){
     
@@ -53,6 +53,7 @@ function Home(){
         <div>
             <a href="/contact">
                 <img id="contact-link" alt="Contact Link" src={contact}/>
+                <img id="bat" alt="bat" src={bat}/>
             </a>
         </div>
         </div>
