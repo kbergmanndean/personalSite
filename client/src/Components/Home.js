@@ -19,14 +19,8 @@ function Home(){
         <div id="home-page">
             <br/>
         <h1>Kaia Bergmann-Dean</h1>
-        <div>
-            <a href="/contact">
-                <img id="contact-link" alt="Contact Link" src={contact}/>
-                <img id="bat" alt="bat" src={bat}/>
-            </a>
-        </div>
         {/* <img src={name} id="name"/> */}
-            {/* <br/> */}
+            <br/>
         <div id="linkedin-div">
             <a href="https://www.linkedin.com/in/kaiabergmann-dean/">
                 <img id="cherub1" alt="cherub" src={cherub1}/>
@@ -56,12 +50,12 @@ function Home(){
             </a>
         </div>
         <Slideshow/>
-        {/* <div>
+        <div>
             <a href="/contact">
                 <img id="contact-link" alt="Contact Link" src={contact}/>
                 <img id="bat" alt="bat" src={bat}/>
             </a>
-        </div> */}
+        </div>
         </div>
     )
 }
