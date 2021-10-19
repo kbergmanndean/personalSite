@@ -1,4 +1,6 @@
 import home from "../pngs/home.png"
+import email from "../pngs/email.png"
+
 function Contact(){
     return(
         <div>
@@ -13,7 +15,9 @@ function Contact(){
                 <h1>Contact Me</h1>
                 <br/>
                 <p>Email: kbergmanndean@gmail.com</p>
-                <a href="mailto: kbergmanndean@gmail.com">Send Email</a>
+                <a href="mailto: kbergmanndean@gmail.com">
+                    <img id="email" src={email}/>
+                </a>
             </div>
 
         </div>
