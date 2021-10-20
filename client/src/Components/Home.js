@@ -11,13 +11,16 @@ import projects from "../pngs/projects2.png"
 import contact from "../pngs/contactme2.png"
 import bat from "../pngs/bat2.png"
 import bats from "../pngs/bat4flipped.png"
+import background from "../pngs/aqua.gif"
 
 function Home(){
     
 
 
     return(
-        <div id="home-page">
+        <div id="home-page" 
+        // style={{backgroundImage: `url(${background})`}}
+        >
             <br/>
             <h1 id="name">Kaia Bergmann-Dean</h1>
             <a href="mailto: kbergmanndean@gmail.com">
