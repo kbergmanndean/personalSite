@@ -10,6 +10,7 @@ import resume from "../pngs/resume2.png"
 import projects from "../pngs/projects2.png"
 import contact from "../pngs/contactme2.png"
 import bat from "../pngs/bat2.png"
+import bats from "../pngs/bat4flipped.png"
 
 function Home(){
     
@@ -22,6 +23,7 @@ function Home(){
             <a href="mailto: kbergmanndean@gmail.com">
                 <img id="contact-link" alt="Contact Link" src={contact}/>
                 <img id="bat" alt="bat" className="link" src={bat}/>
+                <img id="bats" alt="bats" src={bats}/>
             </a>
             {/* <img src={name} id="name"/> */}
             <div id="linkedin-div">

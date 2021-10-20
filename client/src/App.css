@@ -100,14 +100,14 @@ h1{
   width:768px;
   height:432px;
 }
-#contact-link{
+/* #contact-link{
   width:150pt;
   position:relative;
   top:-30px;
   left:330px;
   z-index:1;
   transform:rotate(-5deg);
-}
+} */
 .home-link{
   width:75pt;
   float:left;
@@ -116,13 +116,13 @@ h1{
 #contact-page{
   height:100vh;
 }
-#bat{
+/* #bat{
   width:150pt;
   position:relative;
   right:-200px;
   bottom:80px;
   z-index:2;
-}
+} */
 #email{
   width:150pt;
 }
@@ -143,4 +143,31 @@ h1{
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+#bats{
+  width:100pt;
+  position:relative;
+  left:150px;
+  top:-25px;
+  /* display:none; */
+  visibility:hidden;
+}
+#bat:hover + #bats {
+  visibility:visible;
+}
+
+#contact-link{
+  width:150pt;
+  position:relative;
+  top:-43px;
+  left:398px;
+  z-index:1;
+  transform:rotate(-5deg);
+}
+#bat{
+  width:150pt;
+  position:relative;
+  right:-270px;
+  bottom:90px;
+  z-index:2;
 }
