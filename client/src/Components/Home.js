@@ -24,28 +24,28 @@ function Home(){
                 <img id="bat" alt="bat" src={bat}/>
             </a>
             {/* <img src={name} id="name"/> */}
-            <div id="linkedin-div">
+            <div id="linkedin-div" className="link-div">
                 <a href="https://www.linkedin.com/in/kaiabergmann-dean/">
                     <img id="cherub1" alt="cherub" src={cherub1}/>
                     <br/>
                     <img id="linkedin-link" alt="Linked In" src={linkedin}/>
                 </a>
             </div>
-            <div id="projects-div">
+            <div id="projects-div" className="link-div">
                 <a href="/my-projects">
                     <img id="cherub2" alt="cherub" src={cherub2}/>
                     <br/>
                     <img id="projects-link" alt="Linked" src={projects}/>
                 </a>
             </div>
-            <div id="github-div">
+            <div id="github-div" className="link-div">
                 <a href="https://github.com/kbergmanndean">
                     <img id="raccoon" alt="raccoon" src={raccoon}/>
                     <br/>
                     <img id="github-link" alt="GitHub" src={github}/>
                 </a>
             </div>
-            <div id="resume-div">
+            <div id="resume-div" className="link-div">
                 <a href="/resume">
                     <img id="possum" alt="possum" src={possum}/>
                     <br/>
