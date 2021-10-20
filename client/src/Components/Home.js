@@ -21,7 +21,7 @@ function Home(){
             <h1 id="name">Kaia Bergmann-Dean</h1>
             <a href="mailto: kbergmanndean@gmail.com">
                 <img id="contact-link" alt="Contact Link" src={contact}/>
-                <img id="bat" alt="bat" src={bat}/>
+                <img id="bat" alt="bat" className="link" src={bat}/>
             </a>
             {/* <img src={name} id="name"/> */}
             <div id="linkedin-div">

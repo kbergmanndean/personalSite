@@ -126,7 +126,7 @@ h1{
 #email{
   width:150pt;
 }
-.link-div:hover {
+.link:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
