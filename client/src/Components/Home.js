@@ -19,7 +19,7 @@ function Home(){
         <div id="home-page">
             <br/>
             <h1 id="name">Kaia Bergmann-Dean</h1>
-            <a href="/contact">
+            <a href="mailto: kbergmanndean@gmail.com">
                 <img id="contact-link" alt="Contact Link" src={contact}/>
                 <img id="bat" alt="bat" src={bat}/>
             </a>
