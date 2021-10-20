@@ -24,30 +24,30 @@ function Home(){
                 <img id="bat" alt="bat" src={bat}/>
             </a>
             {/* <img src={name} id="name"/> */}
-            <div id="linkedin-div" className="link-div">
+            <div id="linkedin-div">
                 <a href="https://www.linkedin.com/in/kaiabergmann-dean/">
-                    <img id="cherub1" alt="cherub" src={cherub1}/>
+                    <img id="cherub1" className="link" alt="cherub" src={cherub1}/>
                     <br/>
                     <img id="linkedin-link" alt="Linked In" src={linkedin}/>
                 </a>
             </div>
-            <div id="projects-div" className="link-div">
+            <div id="projects-div">
                 <a href="/my-projects">
-                    <img id="cherub2" alt="cherub" src={cherub2}/>
+                    <img id="cherub2" alt="cherub" className="link" src={cherub2}/>
                     <br/>
                     <img id="projects-link" alt="Linked" src={projects}/>
                 </a>
             </div>
-            <div id="github-div" className="link-div">
+            <div id="github-div">
                 <a href="https://github.com/kbergmanndean">
-                    <img id="raccoon" alt="raccoon" src={raccoon}/>
+                    <img id="raccoon" alt="raccoon" className="link" src={raccoon}/>
                     <br/>
                     <img id="github-link" alt="GitHub" src={github}/>
                 </a>
             </div>
-            <div id="resume-div" className="link-div">
+            <div id="resume-div">
                 <a href="/resume">
-                    <img id="possum" alt="possum" src={possum}/>
+                    <img id="possum" alt="possum" className="link" src={possum}/>
                     <br/>
                     <img id="resume-link" alt="Resume link" src={resume}/>
                 </a>
