@@ -11,7 +11,7 @@ import projects from "../pngs/projects2.png"
 import contact from "../pngs/contactme2.png"
 import bat from "../pngs/bat2.png"
 import bats from "../pngs/bat4flipped.png"
-import background from "../pngs/aqua.gif"
+import background from "../pngs/pinksparkly.gif"
 
 function Home(){
     
@@ -19,7 +19,7 @@ function Home(){
 
     return(
         <div id="home-page" 
-        // style={{backgroundImage: `url(${background})`}}
+        style={{backgroundImage: `url(${background})`}}
         >
             <br/>
             <h1 id="name">Kaia Bergmann-Dean</h1>
