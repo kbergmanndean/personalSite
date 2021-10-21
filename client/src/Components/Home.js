@@ -30,7 +30,7 @@ function Home(){
             </a>
             {/* <img src={name} id="name"/> */}
             <div id="linkedin-div">
-                <a href="https://www.linkedin.com/in/kaiabergmann-dean/">
+                <a href="https://www.linkedin.com/in/kaiabergmann-dean/" target="_blank">
                     <img id="cherub1" className="link" alt="cherub" src={cherub1}/>
                     <br/>
                     <img id="linkedin-link" alt="Linked In" src={linkedin}/>
@@ -44,7 +44,7 @@ function Home(){
                 </a>
             </div>
             <div id="github-div">
-                <a href="https://github.com/kbergmanndean">
+                <a href="https://github.com/kbergmanndean" target="_blank">
                     <img id="raccoon" alt="raccoon" className="link" src={raccoon}/>
                     <br/>
                     <img id="github-link" alt="GitHub" src={github}/>
