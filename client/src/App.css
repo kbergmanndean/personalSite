@@ -168,10 +168,10 @@ h1{
 #contact-link{
   width:150pt;
   position:relative;
-  top:-43px;
+  top:-45px;
   left:398px;
   z-index:1;
-  transform:rotate(-5deg);
+  transform:rotate(-3deg);
 }
 #bat{
   width:150pt;
