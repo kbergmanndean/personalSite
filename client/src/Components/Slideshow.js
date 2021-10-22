@@ -18,7 +18,7 @@ function Slideshow(){
     },[]);
 
     return(
-        <div>
+        <div id="carousel">
             {artworks.length>0?
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner" id="inner">

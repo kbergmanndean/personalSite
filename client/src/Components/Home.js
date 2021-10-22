@@ -23,7 +23,7 @@ function Home(){
         >
             <br/>
             <h1 id="name">Kaia Bergmann-Dean</h1>
-            <a href="mailto: kbergmanndean@gmail.com">
+            <a href="/Contact-Me">
                 <img id="contact-link" alt="Contact Link" src={contact}/>
                 <img id="bat" alt="bat" className="link" src={bat}/>
                 <img id="bats" alt="bats" src={bats}/>
@@ -57,7 +57,7 @@ function Home(){
                     <img id="resume-link" alt="Resume link" src={resume}/>
                 </a>
             </div>
-            <Slideshow/>
+            {/* <Slideshow/> */}
             <div>
            
             </div>
