@@ -2,7 +2,7 @@ import home from "../pngs/home.png"
 
 function Contact(){
     return(
-        <div>
+        <div id="contact-page">
             <br/>
             <a href="/">
                 <img className="home-link" src={home}/>
