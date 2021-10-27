@@ -37,6 +37,7 @@ function Projects(){
                 <br/>
                 <div id="museum-div">
                     <h2>{projects[1].name}</h2>
+                    <p>An interactive museum of art by women artists. Can be explored by search or filter, as well as commented on and added to.</p>
                     <iframe className="project" src={projects[1].url}/>
                 </div>
             </div>
