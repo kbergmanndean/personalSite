@@ -11,7 +11,7 @@ import projects from "../pngs/projects2.png"
 import contact from "../pngs/contactme2.png"
 import bat from "../pngs/bat2.png"
 import bats from "../pngs/bat4flipped.png"
-import background from "../pngs/7pinksky.gif"
+import background from "../pngs/sky1.gif"
 
 function Home(){
     
