@@ -11,7 +11,7 @@ import projects from "../pngs/projects2.png"
 import contact from "../pngs/contactme2.png"
 import bat from "../pngs/bat2.png"
 import bats from "../pngs/bat4flipped.png"
-import background from "../pngs/6pinkpixel.gif"
+import background from "../pngs/7pinksky.gif"
 
 function Home(){
     
@@ -57,7 +57,7 @@ function Home(){
                     <img id="resume-link" alt="Resume link" src={resume}/>
                 </a>
             </div>
-            <p>Full Stack Software Engineer with a background in Art History, Legal Research, Environmental Conservation and Food Service. Sometimes I make art and music! </p>
+            <p>Full Stack Software Engineer with a background in Art History, Research, Environmental Conservation and Food Service. Sometimes I make art and music! </p>
             {/* <Slideshow/> */}
             <div>
            

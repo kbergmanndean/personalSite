@@ -4,7 +4,11 @@
   text-align:center;
   align-items:center;
   font-family:Courier;
-  padding-bottom:200pt;
+  /* padding-bottom:200pt; */
+}
+p{
+  font-family:Courier;
+  font-size:14pt;
 }
 #home-page{
   height:100vh;
@@ -183,5 +187,5 @@ h1{
   z-index:2;
 }
 #cherub3{
-  height:200pt;
+  height:230pt;
 }
