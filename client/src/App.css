@@ -189,3 +189,7 @@ h1{
 #cherub3{
   height:230pt;
 }
+#medready-div, #museum-div{
+  width:768px;
+  margin:auto;
+}
