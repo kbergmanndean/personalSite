@@ -56,6 +56,8 @@ h1, h2{
 #linkedin-div{
   float:left;
   margin-left:20pt;
+  position:relative;
+  left:40pt;
 }
 #raccoon{
   height:110pt;
