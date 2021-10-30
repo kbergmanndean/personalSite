@@ -22,6 +22,7 @@ function Home(){
         style={{backgroundImage: `url(${background})`}}
         >
             <br/>
+            <br/>
             <h1 id="name">Kaia Bergmann-Dean</h1>
             <a href="/Contact-Me">
                 <img id="contact-link" alt="Contact Link" src={contact}/>
