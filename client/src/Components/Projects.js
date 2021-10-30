@@ -31,13 +31,13 @@ function Projects(){
             <div>
                 <div id="medready-div">
                     <h2>{projects[0].name}</h2>
-                    <p>A web application designed to help the user keep track of their prescription medications. I used an external API of medications from the FDA. The MedReady bird logo and medicine bottles are original illustrations. </p>
+                    <p>A web application designed to help the user keep track of their prescription medications. I used an external API of medications from the FDA. The MedReady bird logo and medicine bottles are original&nbsp;illustrations. </p>
                     <iframe className="project" src={projects[0].url}/>
                 </div>
                 <br/>
                 <div id="museum-div">
                     <h2>{projects[1].name}</h2>
-                    <p>An interactive museum of art by women artists. Can be explored by search or filter, as well as commented on and added to.</p>
+                    <p>An interactive museum of art by women artists. Can be explored by search or filter, as well as commented on and added&nbsp;to.</p>
                     <iframe className="project" src={projects[1].url}/>
                 </div>
             </div>
