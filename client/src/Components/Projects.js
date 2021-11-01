@@ -27,6 +27,8 @@ function Projects(){
             <br/>
             <h1>Projects</h1>
             <br/>
+            <br/>
+            <br/>
             {projects.length>0?
             <div>
                 <div id="medready-div">
@@ -34,6 +36,7 @@ function Projects(){
                     <p>A web application designed to help the user keep track of their prescription medications. I used an external API of medications from the FDA. The MedReady bird logo and medicine bottles are original&nbsp;illustrations. </p>
                     <iframe className="project" src={projects[0].url}/>
                 </div>
+                <br/>
                 <br/>
                 <div id="museum-div">
                     <h2>{projects[1].name}</h2>
