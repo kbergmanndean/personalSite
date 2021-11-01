@@ -191,6 +191,17 @@ h1, h2{
 }
 #cherub3{
   height:230pt;
+  position:relative;
+  z-index:2;
+  bottom:75pt;
+  left:50pt;
+}
+#banner{
+  width:450pt;
+  position:relative;
+  z-index:1;
+  bottom:65pt;
+  left:-25pt;
 }
 #medready-div, #museum-div{
   width:768px;

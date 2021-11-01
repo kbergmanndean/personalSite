@@ -1,5 +1,6 @@
 import home from "../pngs/home.png"
 import cherub from "../pngs/cherub3.png"
+import banner from "../pngs/banner.png"
 
 function Contact(){
     return(
@@ -15,8 +16,7 @@ function Contact(){
             <br/>
             <a href="mailto:kbergmanndean@gmail.com">
                 <img src={cherub} id="cherub3" className="link"/>
-                
-                Email me at kbergmanndean@gmail.com
+                <img src={banner} id="banner"/>
             </a>
             
         </div>
