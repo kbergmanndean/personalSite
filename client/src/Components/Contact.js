@@ -1,6 +1,6 @@
 import home from "../pngs/home.png"
 import cherub from "../pngs/cherub3.png"
-import banner from "../pngs/banner.png"
+import banner from "../pngs/banner2.png"
 
 function Contact(){
     return(
