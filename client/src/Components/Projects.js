@@ -40,7 +40,7 @@ function Projects(){
                 <br/>
                 <div id="museum-div">
                     <h2>{projects[1].name}</h2>
-                    <p>An interactive museum of art by women artists. Can be explored by search or filter, as well as commented on and added&nbsp;to.</p>
+                    <p>An interactive museum of art by women artists. Can be explored by search or filter, as well as commented on and added to. The color scheme is inspired by the Yayoi Kusama installation that serves as the background for the Home&nbsp;page.</p>
                     <iframe className="project" src={projects[1].url}/>
                 </div>
             </div>
