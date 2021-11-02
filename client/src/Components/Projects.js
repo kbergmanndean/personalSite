@@ -46,7 +46,8 @@ function Projects(){
                 <br/>
                 <br/>
                 <div id="planet-div">
-                    <h2>Flatiron {projects[2].name}, with {projects[2].partner}</h2>
+                    <h2>Flatiron {projects[2].name}</h2>
+                    <h3>with {projects[2].partner}</h3>
                     <p>An online planetarium with multiple sorting and filtering options and several visual&nbsp;models.</p>
                     <iframe className="project" src={projects[2].url}/>
                 </div>
