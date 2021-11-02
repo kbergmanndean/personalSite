@@ -45,11 +45,11 @@ function Projects(){
                 </div>
                 <br/>
                 <br/>
-                {/* <div id="planet-div">
-                    <h2>{projects[2].name}</h2>
-                    <p></p>
-                    <iframe className="project" src={projects[2].url}/>
-                </div> */}
+                <div id="planet-div">
+                    <h2>Flatiron Planetarium, with Jhanae Chisholm</h2>
+                    <p>An online planetarium with multiple sorting and filtering options and several visual models.</p>
+                    <iframe className="project" src="https://www.youtube.com/embed/vZ_1bo70VGA"/>
+                </div>
             </div>
             :<h3>Content Loading</h3>}       
         </div>
