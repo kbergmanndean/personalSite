@@ -45,11 +45,11 @@ function Projects(){
                 </div>
                 <br/>
                 <br/>
-                <div id="planet-div">
+                {/* <div id="planet-div">
                     <h2>{projects[2].name}</h2>
                     <p></p>
                     <iframe className="project" src={projects[2].url}/>
-                </div>
+                </div> */}
             </div>
             :<h3>Content Loading</h3>}       
         </div>
