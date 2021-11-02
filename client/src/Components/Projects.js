@@ -46,9 +46,9 @@ function Projects(){
                 <br/>
                 <br/>
                 <div id="planet-div">
-                    <h2>Flatiron Planetarium, with Jhanae Chisholm</h2>
+                    <h2>Flatiron {projects[2].name}, with {projects[2].partner}</h2>
                     <p>An online planetarium with multiple sorting and filtering options and several visual models.</p>
-                    <iframe className="project" src="https://www.youtube.com/embed/vZ_1bo70VGA"/>
+                    <iframe className="project" src={projects[2].url}/>
                 </div>
             </div>
             :<h3>Content Loading</h3>}       
