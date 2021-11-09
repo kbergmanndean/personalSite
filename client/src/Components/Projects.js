@@ -25,8 +25,6 @@ function Projects(){
                 <img className="link" id="skunk" src={skunk}/>
             </a>
             <br/>
-            <br/>
-            <br/>
             <h1>Projects</h1>
             <br/>
             <br/>

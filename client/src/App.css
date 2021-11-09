@@ -215,6 +215,13 @@ h1, h2{
   left:-560pt;
   top:5pt;
 }
+/* #skunk{
+  width:100pt;
+  position:relative;
+  left:-420pt;
+  top:3pt;
+  transform:scaleX(-1);
+} */
 #bat2{
   width:100pt;
   position:relative;
