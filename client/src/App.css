@@ -212,16 +212,9 @@ h1, h2{
 #skunk{
   width:100pt;
   position:relative;
-  left:-560pt;
+  left:-540pt;
   top:5pt;
 }
-/* #skunk{
-  width:100pt;
-  position:relative;
-  left:-420pt;
-  top:3pt;
-  transform:scaleX(-1);
-} */
 #bat2{
   width:100pt;
   position:relative;
