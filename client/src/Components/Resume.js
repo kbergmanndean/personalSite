@@ -1,11 +1,13 @@
 import pdf from "../resume.pdf"
 import home from "../pngs/home.png"
+import skunk from "../pngs/skunk.png"
 
 function Resume(){
     return(
         <div>
             <br/>
             <a href="/">
+                <img id="skunk" src={skunk}/>
                 <img className="home-link" src={home}/>
             </a>
             <br/>
