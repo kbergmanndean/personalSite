@@ -1,5 +1,6 @@
 import home from "../pngs/home.png"
 import {useState, useEffect} from "react"
+import skunk from "../pngs/skunk.png"
 
 function Projects(){
     const [projects, setProjects]=useState([])
@@ -21,6 +22,7 @@ function Projects(){
             <br/>
             <a href="/">
                 <img className="home-link" src={home}/>
+                <img className="link" id="skunk" src={skunk}/>
             </a>
             <br/>
             <br/>
