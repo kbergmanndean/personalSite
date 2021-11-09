@@ -209,8 +209,16 @@ h1, h2{
   margin:auto;
   padding-bottom:50pt;
 }
-#skunk{
+/* #skunk{
   width:100pt;
   position:relative;
-  
+  left:-560pt;
+  top:5pt;
+} */
+#bat2{
+  width:100pt;
+  position:relative;
+  left:-550pt;
+  top:5pt;
+  transform:rotate(-10deg);
 }
