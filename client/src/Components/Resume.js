@@ -7,7 +7,7 @@ function Resume(){
         <div>
             <br/>
             <a href="/">
-                <img id="bat2" src={bat}/>
+                <img id="bat2" className="link" src={bat}/>
                 <img className="home-link" src={home}/>
             </a>
             <br/>
