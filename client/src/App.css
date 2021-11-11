@@ -12,7 +12,6 @@
   #bats{
     width:100pt;
     position:relative;
-    /* left:150px; */
     top:-25px;
     visibility:hidden;
   }
@@ -36,6 +35,13 @@
     position:relative;
     top:5pt;
     left:-370pt;
+  }
+  #bat2{
+    width:100pt;
+    position:relative;
+    left:-360pt;
+    top:5pt;
+    transform:rotate(-10deg);
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -71,6 +77,13 @@
     position:relative;
     top:5pt;
     left:-540pt;
+  }
+  #bat2{
+    width:100pt;
+    position:relative;
+    left:-530pt;
+    top:5pt;
+    transform:rotate(-10deg);
   }
 }
 .app{
@@ -181,14 +194,6 @@ h1, h2{
   width:768px;
   height:432px;
 }
-/* #contact-link{
-  width:150pt;
-  position:relative;
-  top:-30px;
-  left:330px;
-  z-index:1;
-  transform:rotate(-5deg);
-} */
 .home-link{
   width:75pt;
   float:left;
@@ -197,13 +202,6 @@ h1, h2{
 #contact-page{
   height:100vh;
 }
-/* #bat{
-  width:150pt;
-  position:relative;
-  right:-200px;
-  bottom:80px;
-  z-index:2;
-} */
 #email{
   width:150pt;
 }
@@ -245,11 +243,4 @@ h1, h2{
   width:768px;
   margin:auto;
   padding-bottom:50pt;
-}
-#bat2{
-  width:100pt;
-  position:relative;
-  left:-530pt;
-  top:5pt;
-  transform:rotate(-10deg);
 }
