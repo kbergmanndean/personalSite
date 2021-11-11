@@ -1,3 +1,20 @@
+@media only screen and (max-width: 1024px) {
+  #home-page{
+    width:100vh;
+    height:100vh;
+    /* background-repeat:no-repeat; */
+    /* background-size:100vw 100vh; */
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #home-page{
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:100vw 100vh;
+  }
+}
+
+
 
 .app{
   background-color:pink;
@@ -6,15 +23,9 @@
   font-family:Courier;
   /* padding-bottom:200pt; */
 }
- 
 p{
   font-family:Courier;
   font-size:14pt;
-}
-#home-page{
-  height:100vh;
-  background-repeat:no-repeat;
-  background-size:100vw 100vh;
 }
 h1, h2{
   font-family:"Homemade Apple", cursive;
