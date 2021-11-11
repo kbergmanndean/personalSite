@@ -10,6 +10,21 @@
     padding:0pt;
     margin:0pt;
   }
+  #bats{
+    width:100pt;
+    position:relative;
+    /* left:150px; */
+    top:-25px;
+    /* display:none; */
+    visibility:hidden;
+  }
+  #bat{
+    width:150pt;
+    position:relative;
+    right:-100pt;
+    bottom:90px;
+    z-index:2;
+  }
 }
 @media only screen and (min-width: 1024px) {
   #home-page{
@@ -17,16 +32,27 @@
     background-repeat:no-repeat;
     background-size:100vw 100vh;
   }
+  #bats{
+    width:100pt;
+    position:relative;
+    left:150px;
+    top:-25px;
+    /* display:none; */
+    visibility:hidden;
+  }
+  #bat{
+    width:150pt;
+    position:relative;
+    right:-270px;
+    bottom:90px;
+    z-index:2;
+  }
 }
-
-
-
 .app{
   background-color:pink;
   text-align:center;
   align-items:center;
   font-family:Courier;
-  /* padding-bottom:200pt; */
 }
 p{
   font-family:Courier;
@@ -41,14 +67,9 @@ h1, h2{
   z-index:2;
   left:-50px;
 }
-#inner{
+/* #inner{
   width:40%;
   margin:auto;
-}
-/* #inner{
-  z-index:0;
-  position:relative;
-  top:-100vh;
 } */
 #resume{
   width:100%;
@@ -165,7 +186,6 @@ h1, h2{
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
-
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -179,18 +199,9 @@ h1, h2{
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-#bats{
-  width:100pt;
-  position:relative;
-  left:150px;
-  top:-25px;
-  /* display:none; */
-  visibility:hidden;
-}
 #bat:hover + #bats {
   visibility:visible;
 }
-
 #contact-link{
   width:150pt;
   position:relative;
@@ -198,13 +209,6 @@ h1, h2{
   left:398px;
   z-index:1;
   transform:rotate(-3deg);
-}
-#bat{
-  width:150pt;
-  position:relative;
-  right:-270px;
-  bottom:90px;
-  z-index:2;
 }
 #cherub3{
   height:230pt;
