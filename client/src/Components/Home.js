@@ -29,7 +29,6 @@ function Home(){
                 <img id="bat" alt="bat" className="link" src={bat}/>
                 <img id="bats" alt="bats" src={bats}/>
             </a>
-            {/* <img src={name} id="name"/> */}
             <div id="linkedin-div">
                 <a href="https://www.linkedin.com/in/kaiabergmann-dean/" target="_blank">
                     <img id="cherub1" className="link" alt="cherub" src={cherub1}/>
