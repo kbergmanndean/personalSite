@@ -58,6 +58,9 @@ function Home(){
                     <img id="resume-link" alt="Resume link" src={resume}/>
                 </a>
             </div>
+            <br/>
+            <br/>
+            <br/>
             <p>Full Stack Software Engineer with a background in art history, research, environmental conservation and food service. Sometimes I make art and&nbsp;music! </p>
             {/* <Slideshow/> */}
             <div>
