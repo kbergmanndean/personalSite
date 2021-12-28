@@ -1,7 +1,7 @@
 import home from "../pngs/home.png"
 import {useState, useEffect} from "react"
 import skunk from "../pngs/skunk.png"
-
+// import medready2 from 
 function Projects(){
     const [projects, setProjects]=useState([])
 
@@ -35,6 +35,7 @@ function Projects(){
                     <h2>{projects[0].name}</h2>
                     <p>A web application designed to help the user keep track of their prescription medications. I used an external API of medications from the FDA. The MedReady bird logo and medicine bottles are original&nbsp;illustrations. </p>
                     <iframe className="project" src={projects[0].url}/>
+                    {/* <iframe className="project" src={medready2}/> */}
                 </div>
                 <br/>
                 <br/>
