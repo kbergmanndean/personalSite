@@ -7,4 +7,4 @@
 # Project.create(name:"MedReady", url:"https://www.youtube.com/embed/yDaJDPpVqiw",partner:"")
 # Project.create(name:"Museum", url:"https://www.youtube.com/embed/waPYxd3zV-E", partner:"")
 # Project.create(name:"Planetarium", url:"https://www.youtube.com/embed/vZ_1bo70VGA", partner:"Jhanae Chisholm")
-Project.create(name:"MedReady2.0", url:"https://www.youtube.com/watch?v=vIXQc8JV61g", partner:"")
+# Project.create(name:"MedReady2.0", url:"https://www.youtube.com/watch?v=vIXQc8JV61g", partner:"")

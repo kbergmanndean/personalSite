@@ -32,9 +32,10 @@ function Projects(){
             <div>
                 <div id="medready-div">
                     <h2>{projects[0].name}</h2>
+                    <a href="http://medready.herokuapp.com">View MedReady</a>
                     <p>A web application designed to help the user keep track of their prescription medications. I used an external API of medications from the FDA. The MedReady bird logo and medicine bottles are original&nbsp;illustrations. </p>
                     <iframe className="project" src={projects[0].url}/>
-                    {/* <iframe className="project" src={projects[3].url}/> */}
+                    <iframe className="project" src="https://www.youtube.com/embed/vIXQc8JV61g"/>
                 </div>
                 <br/>
                 <br/>
