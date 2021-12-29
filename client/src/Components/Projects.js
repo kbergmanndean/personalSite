@@ -37,6 +37,8 @@ function Projects(){
                     <iframe className="project" src={projects[0].url}/>
                     <br/>
                     <br/>
+                    <br/>
+                    <br/>
                     <p>Added feature where the website keeps track of when the user is going to run out of a medication and alerts them. Based on the daily dosage and doses in container, if you are seven days away from running out of meds, the website begins alerting you every day until you run out. </p>
                     <iframe className="project" src="https://www.youtube.com/embed/vIXQc8JV61g"/>
                 </div>
