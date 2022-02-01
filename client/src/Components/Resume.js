@@ -1,4 +1,4 @@
-import pdf from "../resume.pdf"
+import pdf from "../resume2.pdf"
 import home from "../pngs/home.png"
 import bat from "../pngs/bat3.png"
 
